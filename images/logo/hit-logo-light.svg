@@ -1,0 +1,8 @@
+<svg width="260" height="56" viewBox="0 0 260 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g2" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop stop-color="#7DB4FF"/><stop offset="1" stop-color="#fff"/></linearGradient></defs>
+<rect x="2" y="4" width="48" height="48" rx="14" fill="#FFFFFF" fill-opacity="0.16"/>
+<rect x="2" y="4" width="48" height="48" rx="14" stroke="#FFFFFF" stroke-opacity="0.5"/>
+<text x="26" y="38" text-anchor="middle" font-family="Georgia, 'Instrument Serif', serif" font-size="30" fill="#fff">H</text>
+<text x="60" y="23" font-family="Arial, 'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="2.2" fill="#FFFFFF">HOMES INVESTMENT TRUST</text>
+<text x="60" y="43" font-family="Georgia, 'Instrument Serif', serif" font-size="20" fill="#FFFFFF">Private Wealth</text>
+</svg>

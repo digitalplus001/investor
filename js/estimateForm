@@ -1,0 +1,23 @@
+document.getElementById("estimateForm").addEventListener("submit", getEstimate);
+
+function getEstimate(e) {
+    e.preventDefault();
+
+    let id = Math.floor(Math.random() * 10000000);
+    let email = document.querySelector('#quickEmail').value;
+    console.log(email);
+
+    firebase.database().ref('estimate/' + id).set({
+        messageId: id,
+        email: email,
+    });
+
+    swal({
+        title: "Quick Estimate",
+        text: "An estimate will be sent to your email",
+        icon: "success",
+        button: "Return"
+    }).then(function () {
+        window.location.reload();
+    })
+}

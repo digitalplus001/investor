@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QSSY7BQ7GM"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-QSSY7BQ7GM');</script>
+<meta charset="UTF-8">
+<meta name="keywords" content="Real estate, Property sale, Property buy">
+<meta name="description" content="Homes Investment Trust — Real estate and private equity investing for everyone.">
+<meta property="og:site_name" content="Homes Investment Trust">
+<meta property="og:url" content="https://creativegigstf.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Homes Investment Trust — Real Estate & Private Equity">
+<meta name='og:image' content='images/assets/ogg.png'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#2563EB">
+<meta name="msapplication-navbutton-color" content="#2563EB">
+<meta name="apple-mobile-web-app-status-bar-style" content="#2563EB">
+<title>Homes Investment Trust | Home</title>
+<link rel="icon" type="image/svg+xml" href="images/fav-icon/hit-icon.svg">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--bg:#EAF4FF; --surface:#FFFFFF; --ink:#10233F; --ink2:#2E446B;
+--muted:#5B6F95; --line:#CDE2FF; --line2:#E3EFFF;
+--brand:#2563EB; --accent:#FFB800; --accent2:#FFF3C4; --accent-ink:#3A2A00;
+--mint:#06D6A0; --mint-bg:#D9FFF3;
+--coral:#FF6B6B; --sky:#00B2FF;
+--radius:20px; --radius-lg:28px;
+--shadow:0 20px 50px rgba(37,99,235,.18); --shadow-sm:0 8px 24px rgba(37,99,235,.12);
+--radius:20px; --radius-lg:28px;
+--shadow:0 20px 50px rgba(11,16,32,.12); --shadow-sm:0 8px 24px rgba(11,16,32,.08);
+--font-sans:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
+--font-serif:'Instrument Serif',Georgia,serif;
+--font-mono:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:110px}
+body{font-family:var(--font-sans);background:var(--bg);color:var(--ink);margin:0;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+h1,h2,h3{line-height:1.02;letter-spacing:-.035em;margin:0;font-weight:800}
+.serif{font-family:var(--font-serif);font-weight:400;letter-spacing:-.02em}
+.serif em{font-style:italic}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+::selection{background:var(--accent);color:#10233F}
+:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1220px;margin:0 auto;padding:0 24px}
+/* progress + preloader */
+#progress{position:fixed;top:0;left:0;height:4px;width:0;background:linear-gradient(90deg,#2563EB,#00B2FF,#06D6A0,#FFB800);z-index:1200}
+#preloader{position:fixed;inset:0;background:linear-gradient(135deg,#2563EB,#00B2FF);z-index:2000;display:flex;align-items:center;justify-content:center;transition:opacity .45s,visibility .45s}
+#preloader.hide{opacity:0;visibility:hidden}
+.pre-inner{text-align:center;color:#fff}
+.pre-logo{font-family:var(--font-serif);font-size:34px}
+.pre-logo i{font-style:italic;color:var(--accent2)}
+.pre-bar{width:180px;height:2px;background:rgba(255,255,255,.15);margin:16px auto;border-radius:99px;overflow:hidden}
+.pre-bar span{display:block;height:100%;width:40%;background:var(--accent);border-radius:99px;animation:load 1s infinite ease-in-out}
+@keyframes load{0%{transform:translateX(-100%)}100%{transform:translateX(450%)}}
+/* utility bar */
+.util{background:linear-gradient(90deg,#2563EB,#00B2FF);color:#fff;font-size:13px}
+.util-inner{max-width:1220px;margin:0 auto;padding:8px 24px;display:flex;gap:14px;align-items:center;justify-content:space-between}
+.util a{color:#FFF3C4;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.count{font-family:var(--font-mono);font-size:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);padding:3px 10px;border-radius:99px;color:#fff}
+/* floating nav — with segregating overlay so content never bleeds through */
+.nav-float{position:sticky;top:0;z-index:900;margin:0 auto;max-width:none;padding:12px 24px 10px;background:rgba(234,244,255,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--line);transition:box-shadow .25s}
+.nav-float.scrolled{box-shadow:0 12px 32px rgba(37,99,235,.18)}
+.nav-float-inner{max-width:1220px;margin:0 auto}
+.nav-pill{background:rgba(255,255,255,.96);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:99px;box-shadow:var(--shadow-sm);display:flex;align-items:center;gap:8px;padding:8px 8px 8px 14px}
+.brand{display:flex;align-items:center;gap:11px;margin-right:6px}
+.mark{width:40px;height:40px;border-radius:13px;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;display:grid;place-items:center;font-family:var(--font-serif);font-size:24px;line-height:1}
+.brand-txt small{display:block;font-size:10px;letter-spacing:.22em;font-weight:800;color:var(--muted)}
+.brand-txt strong{font-size:15.5px;letter-spacing:-.02em}
+.links{display:flex;gap:4px;margin-left:12px;align-items:center}
+.links>a,.drop-btn{font-size:14.5px;font-weight:600;color:var(--ink2);padding:10px 8px;border:0;background:none;cursor:pointer;white-space:nowrap;position:relative;border-radius:0}
+.links>a:hover,.drop-btn:hover{background:none;color:var(--brand)}
+.links>a:after,.drop-btn:after{content:"";position:absolute;left:8px;right:8px;bottom:4px;height:2px;border-radius:99px;background:var(--brand);transform:scaleX(0);transform-origin:left;transition:transform .2s}
+.links>a:hover:after,.drop-btn:hover:after{transform:scaleX(1)}
+.links>a.active{background:none;color:var(--brand)}
+.links>a.active:after{transform:scaleX(1)}
+.drop{position:relative}
+.drop-menu{position:absolute;top:calc(100% + 10px);left:0;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:8px;min-width:280px;display:none}
+.drop:hover .drop-menu,.drop:focus-within .drop-menu{display:block}
+.drop-menu a{display:flex;gap:12px;padding:12px;border-radius:12px;align-items:flex-start}
+.drop-menu a:hover{background:#FAF6EA}
+.drop-ic{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;display:grid;place-items:center;flex:0 0 38px}
+.nav-cta{margin-left:auto;display:flex;gap:8px;align-items:center}
+.btn{border-radius:99px;font-weight:800;border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-dark{background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;padding:12px 20px;font-size:14px;box-shadow:0 10px 22px rgba(37,99,235,.35)}
+.btn-gold{background:linear-gradient(180deg,#FFD93D,#FFB800);color:#3A2A00;padding:12px 20px;font-size:14px;box-shadow:0 10px 22px rgba(255,184,0,.45)}
+.btn-light{background:#fff;border:1px solid var(--line);padding:13px 20px;font-size:14px}
+.btn-lg{padding:16px 26px;font-size:15.5px}
+#hamb{display:none;border:1px solid var(--line);background:#fff;border-radius:99px;padding:10px 14px;font-size:18px}
+.anchor-chips{display:flex;gap:8px;overflow:auto;padding:10px 2px 2px;scrollbar-width:none}
+.anchor-chips::-webkit-scrollbar{display:none}
+.anchor-chips a{flex:0 0 auto;font-size:13px;font-weight:700;border:1px solid var(--line);background:#fff;padding:8px 14px;border-radius:99px;color:var(--ink2);box-shadow:0 2px 8px rgba(37,99,235,.08)}
+.anchor-chips a:hover{border-color:var(--brand)}
+.secnav{margin-top:10px;padding-top:10px;border-top:1px solid var(--line);background:transparent}
+@media(max-width:1020px){.links{display:none}#hamb{display:block}.nav-cta .btn-light{display:none}}
+#mmenu{display:none;margin-top:10px;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}
+#mmenu.open{display:block}
+#mmenu a{display:block;padding:14px 18px;font-weight:700;border-bottom:1px solid var(--line2)}
+/* hero bento */
+.hero{padding:26px 0 10px}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:20px;align-items:stretch}
+@media(max-width:980px){.hero-grid{grid-template-columns:1fr}}
+.hero-main{background:linear-gradient(135deg,#2563EB 0%,#00B2FF 55%,#06D6A0 100%);color:#fff;border-radius:var(--radius-lg);padding:clamp(28px,4vw,52px);position:relative;overflow:hidden}
+.hero-main:after{content:"";position:absolute;inset:auto -120px -140px auto;width:420px;height:420px;background:radial-gradient(circle,rgba(255,255,255,.35),transparent 68%);pointer-events:none}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:12px;font-weight:800;letter-spacing:.14em;color:#fff;border:1px solid rgba(255,255,255,.45);background:rgba(255,255,255,.18);padding:8px 13px;border-radius:99px}
+.dot{width:8px;height:8px;border-radius:50%;background:#34D399;box-shadow:0 0 0 5px rgba(52,211,153,.2)}
+.hero-main h1{font-size:clamp(40px,5.2vw,68px);margin:18px 0 14px;max-width:12ch}
+.hero-main h1 .serif{font-weight:400}
+.hero-main h1 .gold{font-family:var(--font-serif);font-style:italic;font-weight:400;background:linear-gradient(90deg,#FFF3C4,#FFD93D);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:#EAF4FF;font-size:clamp(15.5px,1.6vw,18px);max-width:46ch}
+.cta-row{display:flex;gap:10px;margin-top:24px;flex-wrap:wrap}
+.trust-row{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap}
+.trust-chip{display:flex;gap:10px;align-items:center;background:rgba(255,255,255,.22);border:1px solid rgba(255,255,255,.4);border-radius:16px;padding:10px 14px;font-size:13px;color:#fff}
+.trust-chip b{font-size:15px}
+.hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px}
+@media(max-width:560px){.hero-stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:16px;padding:14px}
+.stat b{font-family:var(--font-mono);font-size:22px;color:#fff}
+.stat span{display:block;font-size:11px;letter-spacing:.1em;color:#EAF4FF;font-weight:700;text-transform:uppercase}
+.hero-side{display:grid;grid-template-rows:1fr auto;gap:20px}
+.bento-imgs{display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+.bento-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-sm);position:relative;min-height:100%}
+.bento-card img.ph{height:100%;min-height:300px;width:100%;object-fit:cover}
+.badge-float{position:absolute;left:14px;top:14px;background:linear-gradient(135deg,#06D6A0,#00B2FF);color:#fff;backdrop-filter:blur(8px);border-radius:99px;padding:7px 12px;font-size:12px;font-weight:800;display:flex;gap:8px;align-items:center}
+.payout{background:linear-gradient(135deg,#FFB800,#FF6B6B);color:#fff;border-radius:var(--radius-lg);padding:20px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+.payout .num{font-family:var(--font-mono);font-size:26px}
+.pulse{width:10px;height:10px;border-radius:50%;background:#34D399;display:inline-block;animation:pl 1.6s infinite}
+@keyframes pl{0%{box-shadow:0 0 0 0 rgba(52,211,153,.5)}100%{box-shadow:0 0 0 12px rgba(52,211,153,0)}}
+/* sections */
+section.block{padding:54px 0 6px}
+.sec-head{display:flex;gap:18px;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;margin-bottom:20px}
+.kicker{font-family:var(--font-mono);font-size:12px;letter-spacing:.18em;font-weight:700;color:#2563EB;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.kicker:before{content:"";width:26px;height:2px;background:var(--accent);display:inline-block;border-radius:99px}
+.sec-head h2{font-size:clamp(30px,3.8vw,50px);max-width:18ch}
+.sec-head h2 .serif{font-weight:400}
+.sub{color:var(--muted);max-width:62ch;font-size:16.5px}
+/* testimonials carousel */
+.car{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);overflow:hidden}
+.car-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(320px,86%);overflow-x:auto;scroll-snap-type:x mandatory;gap:0;scroll-behavior:smooth}
+@media(min-width:900px){.car-track{grid-auto-columns:minmax(0,33.333%)}}
+.t{min-width:0;scroll-snap-align:start;padding:28px;border-right:1px solid var(--line2)}
+.t-top{display:flex;gap:12px;align-items:center}
+.avatar{width:50px;height:50px;border-radius:50%;object-fit:cover;border:2px solid #FFB800}
+.stars{color:#FF8A00;letter-spacing:2px;font-size:12px}
+.t blockquote{font-family:var(--font-serif);font-size:20px;line-height:1.4;margin:14px 0}
+.car-nav{display:flex;gap:8px;align-items:center;justify-content:space-between;padding:14px 16px;border-top:1px solid var(--line2);background:#FCFAF4}
+.car-btns{display:flex;gap:8px}
+.icon-btn{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:#fff;display:grid;place-items:center;font-size:18px;cursor:pointer}
+/* how */
+.how-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+@media(max-width:860px){.how-grid{grid-template-columns:1fr}}
+.how{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;display:flex;gap:16px;box-shadow:var(--shadow-sm)}
+.step{width:48px;height:48px;flex:0 0 48px;border-radius:15px;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;display:grid;place-items:center;font-family:var(--font-mono);font-weight:700}
+.how h3{font-size:22px;margin:2px 0 6px}
+.how p{margin:0;color:var(--muted);font-size:15px}
+/* dark split */
+.split{background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;border-radius:var(--radius-lg);overflow:hidden;display:grid;grid-template-columns:1fr 1fr}
+@media(max-width:940px){.split{grid-template-columns:1fr}}
+.split-a{padding:clamp(26px,3.5vw,44px);background:radial-gradient(500px 260px at 20% 10%,rgba(255,255,255,.28),transparent),linear-gradient(180deg,rgba(255,255,255,.12),transparent)}
+.split-b{padding:clamp(26px,3.5vw,44px);background:#fff;color:var(--ink)}
+.big{font-family:var(--font-serif);font-size:76px;line-height:1}
+.play{width:60px;height:60px;border-radius:50%;border:0;background:#FFB800;color:#3A2A00;display:inline-grid;place-items:center;font-size:20px;margin:16px 10px 0 0;cursor:pointer;box-shadow:0 10px 22px rgba(255,184,0,.5)}
+.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 20px}
+.mini{background:#EAF4FF;border:1px solid var(--line);border-radius:16px;padding:16px}
+.mini b{font-family:var(--font-mono);font-size:24px}
+/* portfolio */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 16px}
+.fbtn{border:1px solid var(--line);background:#fff;border-radius:99px;padding:9px 16px;font-weight:700;font-size:13.5px;cursor:pointer}
+.fbtn.active{background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:980px){.grid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.grid{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card .ph{height:188px;overflow:hidden;background:#EDE8D8}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.card:hover .ph img{transform:scale(1.05)}
+.card-body{padding:18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.eyetag{font-family:var(--font-mono);font-size:11px;letter-spacing:.12em;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;align-self:flex-start;padding:5px 10px;border-radius:99px}
+.card-body h3{font-size:20px;letter-spacing:-.02em}
+.card-body p{color:var(--muted);font-size:14.5px;margin:0;flex:1}
+.card-foot{display:flex;align-items:center;justify-content:space-between;margin-top:10px}
+.go{width:42px;height:42px;border-radius:50%;background:linear-gradient(180deg,#FFD93D,#FFB800);color:#3A2A00;display:grid;place-items:center;font-weight:800}
+/* deal */
+.deal{background:linear-gradient(135deg,#2563EB 0%,#00B2FF 50%,#06D6A0 100%);border-radius:var(--radius-lg);color:#fff;padding:clamp(24px,3.5vw,40px);display:grid;grid-template-columns:1.05fr .95fr;gap:20px;position:relative;overflow:hidden}
+@media(max-width:940px){.deal{grid-template-columns:1fr}}
+.deal-card{background:#FFFEFA;color:var(--ink);border-radius:20px;padding:24px;box-shadow:var(--shadow)}
+.price{font-family:var(--font-serif);font-size:56px;line-height:1}
+/* estimate */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:940px){.two{grid-template-columns:1fr}}
+.panel{background:#fff;border:1px solid var(--line);border-radius:24px;padding:clamp(22px,3vw,32px);box-shadow:var(--shadow-sm)}
+.panel.dark{background:linear-gradient(135deg,#2563EB,#7C3AED);color:#fff;border-color:transparent}
+.inline-form{display:flex;gap:8px;background:#EAF4FF;border:1px solid var(--line);border-radius:99px;padding:6px;margin-top:16px}
+.inline-form input{flex:1;border:0;background:transparent;padding:12px 16px;outline:none;font-size:15px;min-width:0}
+.inline-form button{border:0;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;border-radius:99px;padding:12px 20px;font-weight:800;white-space:nowrap;cursor:pointer}
+.panel.dark .inline-form{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.14)}
+.panel.dark .inline-form input{color:#fff}
+.est-shot{border-radius:18px;overflow:hidden;border:1px solid var(--line);margin-top:16px;position:relative}
+.est-shot img.bg{height:210px;width:100%;object-fit:cover}
+.est-pop{position:absolute;left:14px;right:14px;bottom:14px;background:rgba(255,255,255,.96);border-radius:16px;padding:12px 16px;display:flex;align-items:center;justify-content:space-between}
+.steps3{display:grid;gap:12px;margin-top:18px}
+.s3{display:flex;gap:14px;background:rgba(255,255,255,.06);border:1px solid rgba(238,223,190,.22);border-radius:16px;padding:16px}
+/* cta */
+.cta{background:linear-gradient(135deg,#2563EB,#00B2FF 60%,#06D6A0);border-radius:var(--radius-lg);padding:clamp(26px,3.5vw,42px);color:#fff;display:grid;grid-template-columns:1.1fr .9fr;gap:18px;align-items:center}
+@media(max-width:940px){.cta{grid-template-columns:1fr}}
+.cta-form{display:flex;background:#fff;border-radius:99px;padding:6px;gap:6px}
+.cta-form input{flex:1;border:0;padding:13px 16px;border-radius:99px;outline:none;min-width:0}
+.cta-form button{border:0;background:linear-gradient(180deg,#FFD93D,#FFB800);color:#3A2A00;border-radius:99px;padding:13px 20px;font-weight:800;cursor:pointer}
+.contact-hero{text-align:center;background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:54px 24px;margin-top:16px;box-shadow:var(--shadow-sm)}
+/* footer */
+footer{margin-top:44px;background:linear-gradient(180deg,#1B34A5,#2563EB);color:#DCE8FF}
+.foot{max-width:1220px;margin:0 auto;padding:46px 24px 0;display:grid;grid-template-columns:1.3fr .7fr .7fr;gap:24px}
+@media(max-width:860px){.foot{grid-template-columns:1fr}}
+.foot h5{color:#fff;font-size:12px;letter-spacing:.16em;text-transform:uppercase;margin:0 0 12px}
+.foot a{display:block;padding:6px 0}
+.foot a:hover{color:#fff}
+.copy{border-top:1px solid rgba(255,255,255,.25);margin-top:26px;padding:16px;text-align:center;font-size:13px;color:#EAF4FF}
+/* mobile sticky cta */
+.sticky-cta{position:fixed;left:12px;right:12px;bottom:12px;z-index:950;display:none;gap:8px;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:99px;padding:8px;box-shadow:var(--shadow)}
+@media(max-width:760px){.sticky-cta{display:flex}.sticky-cta .btn{flex:1;padding:13px}}
+/* modal */
+.modal-content{border-radius:24px;border:0;overflow:hidden}
+.auth{display:grid;grid-template-columns:.9fr 1.1fr}
+@media(max-width:720px){.auth{grid-template-columns:1fr}.auth-side{display:none}}
+.auth-side{background:linear-gradient(135deg,#2563EB,#00B2FF 60%,#06D6A0);color:#fff;padding:32px}
+.auth-main{padding:26px;background:#fff}
+.seg{display:flex;background:#E3EFFF;border-radius:99px;padding:4px}
+.seg button{flex:1;border:0;background:transparent;border-radius:99px;padding:11px;font-weight:800;cursor:pointer}
+.seg button.active{background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff}
+.field{margin-bottom:13px}
+.field label{font-size:13px;font-weight:800;display:block;margin-bottom:6px}
+.field input{width:100%;border:1.5px solid var(--line);border-radius:14px;padding:13px 14px;background:#FCFAF3;font-family:inherit}
+.field input:focus{border-color:var(--brand);outline:none}
+.btn-block{width:100%;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;border-radius:14px;padding:14px;font-weight:800;border:0;cursor:pointer}
+.soc{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.soc a{border:1px solid var(--line);border-radius:14px;padding:11px;display:flex;gap:8px;align-items:center;justify-content:center;font-weight:700;background:#fff;font-size:14px}
+.scroll-top{position:fixed;right:18px;bottom:86px;width:48px;height:48px;border-radius:50%;border:0;background:linear-gradient(135deg,#2563EB,#00B2FF);color:#fff;display:none;z-index:960;box-shadow:var(--shadow);cursor:pointer}
+.scroll-top.show{display:block}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+.ticker-strip{overflow:hidden;white-space:nowrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;padding:11px 0;font-weight:700;font-size:13.5px;position:relative}
+.ticker-track{display:inline-flex;align-items:center;width:max-content;animation:ticker-roll 22s linear infinite;will-change:transform}
+.ticker-strip:hover .ticker-track{animation-play-state:paused}
+.ticker-track span{padding:0 22px;flex:0 0 auto}
+@keyframes ticker-roll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
+.mono{font-family:var(--font-mono)}
+/* professional mobile navbar */
+.nav-cta .btn .cta-short{display:none}
+#mmenu{padding:6px}
+#mmenu a{border-radius:12px;margin:2px 4px;position:relative;padding-right:42px}
+#mmenu a:after{content:"›";position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--brand);font-size:22px;line-height:1}
+#mmenu a.mmenu-invest{background:linear-gradient(180deg,#FFD93D,#FFB800);color:#3A2A00;font-weight:800}
+#mmenu a.mmenu-invest:after{color:#3A2A00}
+@media(max-width:1020px){
+.nav-float{padding:10px 12px 8px}
+.nav-pill{padding:6px 6px 6px 10px;gap:6px;flex-wrap:nowrap}
+.brand{flex:0 0 auto;min-width:0}
+.nav-cta{flex:0 0 auto;gap:6px;margin-left:auto}
+.nav-cta .btn{white-space:nowrap;flex:0 0 auto}
+#hamb{flex:0 0 auto}
+}
+@media(max-width:640px){
+.brand-txt{display:none}
+.nav-cta .btn .cta-full{display:none}
+.nav-cta .btn .cta-short{display:inline}
+.nav-cta .btn-gold{padding:11px 16px;font-size:13.5px}
+}
+.brand-short{display:none}
+@media(max-width:640px){
+.mark{width:36px;height:36px;font-size:21px}
+.brand-short{display:block;font-size:11.5px;font-weight:800;letter-spacing:-.01em;white-space:nowrap;line-height:1.2}
+#hamb{min-width:44px;min-height:44px;padding:8px 10px}
+.nav-cta .btn-gold{padding:10px 14px}
+}
+</style>
+</head>
+<body>
+<div id="progress"></div>
+<div id="preloader"><div class="pre-inner"><div class="pre-logo">Homes <i>Investment Trust</i></div><div class="pre-bar"><span></span></div><div style="font-size:12px;color:#EAF4FF;letter-spacing:.16em">PRIVATE WEALTH · EST. 1981</div></div></div>
+
+<div class="util"><div class="util-inner"><div>The <a href="listing.html">flash sale</a> goes on. The offer will end in — <strong style="color:#fff">This Sunday</strong></div><div class="count" id="countdown">Ends in --:--:--</div></div></div>
+
+<div class="nav-float" id="navFloat">
+<div class="nav-float-inner">
+<div class="nav-pill">
+<a href="index.html" class="brand"><span class="mark">H</span><span class="brand-txt"><small>HOMES INVESTMENT TRUST</small><strong>Private Wealth</strong></span><span class="brand-short">Homes Investment Trust</span></a>
+<nav class="links" aria-label="Primary">
+<a href="index.html" class="active">Home</a>
+<div class="drop"><button class="drop-btn">Investments ▾</button><div class="drop-menu"><a href="realestate.html"><span class="drop-ic">⌂</span><span><b>Real Estate</b><br><small style="color:var(--muted)">Rental shares · monthly income</small></span></a><a href="listing.html"><span class="drop-ic">◈</span><span><b>Private Equities</b><br><small style="color:var(--muted)">Bagfactory, Scoro, Wildix & more</small></span></a></div></div>
+<a href="about.html">About Us</a>
+<a href="contact.html">Contact Us</a>
+</nav>
+<div class="nav-cta">
+<button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">Access Account</button>
+<button type="button" class="btn btn-gold js-open-signup" data-bs-toggle="modal" data-bs-target="#loginModal"><span class="cta-full">Start Investing →</span><span class="cta-short">Invest →</span></button>
+<button id="hamb" aria-label="Open menu">☰</button>
+</div>
+</div>
+<div id="mmenu"><a href="index.html">Home</a><a href="realestate.html">Real Estate</a><a href="listing.html">Private Equities</a><a href="about.html">About Us</a><a href="contact.html">Contact Us</a><a href="#" class="mmenu-invest js-open-signup" data-bs-toggle="modal" data-bs-target="#loginModal">Start Investing →</a><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Access Account</a></div>
+<div class="secnav"><nav class="anchor-chips" aria-label="On this page"><a href="#how">How it works</a><a href="#numbers">Why us</a><a href="#portfolio">Portfolio</a><a href="#deal">Monthly deal</a><a href="#estimate">Estimate</a><a href="#start">Get started</a></nav></div>
+</div>
+</div>
+
+<header class="wrap hero">
+<div class="hero-grid">
+<div class="hero-main">
+<span class="eyebrow"><span class="dot"></span> TRUSTED SINCE 1981 · 1.3M+ INVESTORS</span>
+<h1>Real Estate Investment <span class="serif">For <span class="gold">Everyone</span></span></h1>
+<p class="lead">Buy shares of rental properties, earn monthly income, and watch your money grow. Low minimums, full transparency, human support.</p>
+<div class="cta-row">
+<a href="realestate.html" class="btn btn-gold btn-lg">Start Exploring →</a>
+<a href="listing.html" class="btn btn-light btn-lg" style="background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.2)">View Private Equities</a>
+</div>
+<div class="trust-row">
+<div class="trust-chip">★★★★★ <span><b>4.7/5</b> · 53k ratings</span></div>
+<div class="trust-chip"><span class="pulse"></span> <span><b>Monthly payouts</b> · tracked live</span></div>
+<div class="trust-chip">◈ <span><b>Low minimums</b> · start small</span></div>
+</div>
+<div class="hero-stats">
+<div class="stat"><b><span class="counter">20</span>%+</b><span>Returns upto</span></div>
+<div class="stat"><b><span class="counter">1.3</span>M+</b><span>Happy customers</span></div>
+<div class="stat"><b><span class="counter">43</span>+</b><span>Years experience</span></div>
+<div class="stat"><b>15%+</b><span>Monthly deal</span></div>
+</div>
+</div>
+<div class="hero-side">
+<div class="bento-imgs">
+<div class="bento-card"><span class="badge-float"><span class="pulse"></span> LIVE · Rented</span><img class="ph" src="images/listing/real1.jpg" alt="Premium rental property" onerror="this.src='images/media/block.jpg'"></div>
+<div class="bento-card"><img class="ph" src="images/listing/real2.jpg" alt="Rental home exterior" onerror="this.src='images/media/chart.jpg'"><div style="padding:14px"><div class="mono" style="font-size:12px;color:var(--muted)">NEXT PAYOUT</div><div class="mono" style="font-size:22px">+$1,240.00</div><a href="https://www.youtube.com/embed/aXFSJTjVjw0" target="_blank" rel="noopener" style="font-weight:800;font-size:14px">▶ Watch how it works</a></div></div>
+</div>
+<div class="payout"><div><div class="mono" style="font-size:11px;letter-spacing:.14em;opacity:.7">YOUR ESTIMATE IS IN</div><div class="num">$378,30.00</div><div style="font-size:13px;opacity:.7">CB Estimate · instant · no spam</div></div><a href="#estimate" class="btn btn-gold">Get mine →</a></div>
+</div>
+</div>
+</header>
+
+<div class="ticker-strip" aria-hidden="true"><div class="ticker-track"><span>★ BAGFACTORY — EU retail packaging</span><span>★ DIGITALMIND — Dynamics 365</span><span>★ SCORO — service-firm OS</span><span>★ SMN — networking & cybersecurity</span><span>★ FREOR — green refrigeration</span><span>★ WILDIX — 1M+ UC users</span><span>★ BAGFACTORY — EU retail packaging</span><span>★ DIGITALMIND — Dynamics 365</span><span>★ SCORO — service-firm OS</span><span>★ SMN — networking & cybersecurity</span><span>★ FREOR — green refrigeration</span><span>★ WILDIX — 1M+ UC users</span></div></div>
+
+<main class="wrap">
+<section class="block reveal" id="voices">
+<div class="sec-head"><div><div class="kicker">Investor love</div><h2>Loved by first-timers <span class="serif"><em>and</em></span> pros</h2></div><div class="sub">Very trustworthy and clear platform to invest in real estate. Safe Investment with monthly payouts.</div></div>
+<div class="car">
+<div class="car-track" id="carTrack">
+<article class="t"><div class="t-top"><img class="avatar" src="images/media/tusso.jpg" alt="Jonathan tusso"><div><b>Jonathan tusso</b><div style="font-size:13px;color:var(--muted)">Milan, Itlay</div><div class="stars">★★★★★</div></div></div><blockquote>“Very trustworthy and clear platform to invest in real estate. Safe Investment with monthly payouts. Really recommended!”</blockquote><div style="font-size:13px"><b>53k rating</b> (4.7 Rating)</div></article>
+<article class="t"><div class="t-top"><img class="avatar" src="images/media/rena.jpg" alt="Sofia Rena"><div><b>Sofia Rena</b><div style="font-size:13px;color:var(--muted)">Berlin, Germany</div><div class="stars">★★★★★</div></div></div><blockquote>“People who are sentinels are definitely the working very hard now, so that they can enjoy the fruits.”</blockquote><div style="font-size:13px"><b>10k rating</b> (4.5 Rating)</div></article>
+<article class="t"><div class="t-top"><img class="avatar" src="images/media/rasheed.jpg" alt="Rasheed Ashore"><div><b>Rasheed Ashore</b><div style="font-size:13px;color:var(--muted)">California, US</div><div class="stars">★★★★★</div></div></div><blockquote>“They are very strict about themselves and their work, and do not have a carefree attitude to anything in life.”</blockquote><div style="font-size:13px"><b>11k rating</b> (4.8 Rating)</div></article>
+</div>
+<div class="car-nav"><div style="font-size:13px;color:var(--muted)">Swipe or use arrows →</div><div class="car-btns"><button class="icon-btn" id="carPrev" aria-label="Previous">←</button><button class="icon-btn" id="carNext" aria-label="Next">→</button></div></div>
+</div>
+</section>
+
+<section class="block reveal" id="how">
+<div class="sec-head"><div><div class="kicker">How it works</div><h2>We handle the heavy lifting <span class="serif"><em>so you profit.</em></span></h2></div><div class="sub">Your trusted partner in every transaction.</div></div>
+<div class="how-grid">
+<div class="how"><div class="step">01</div><div><h3>Choose A Package</h3><p>Select the investment plan that suits your needs and aspirations.</p><a href="realestate.html" style="font-weight:800;font-size:14px">Browse packages →</a></div></div>
+<div class="how"><div class="step">02</div><div><h3>Earn and Track</h3><p>You have full visibility into the performance of your investment. Track your total current.</p><a href="listing.html" style="font-weight:800;font-size:14px">See live assets →</a></div></div>
+</div>
+<div class="split" id="numbers" style="margin-top:16px">
+<div class="split-a">
+<div class="kicker" style="color:var(--accent2)">Numbers said more than words</div>
+<div class="big"><span class="counter">43</span>+</div>
+<p style="color:#B9C3D6;margin:0">Years Experience with proud.</p>
+<div><button class="play" aria-label="Play video" onclick="document.getElementById('videoFrame').src='https://www.youtube.com/embed/aXFSJTjVjw0';var m=new bootstrap.Modal(document.getElementById('videoModal'));m.show();">▶</button><a href="https://www.youtube.com/embed/aXFSJTjVjw0" target="_blank" rel="noopener" style="color:var(--accent2);font-weight:700">Watch the film</a></div>
+</div>
+<div class="split-b">
+<h3 style="font-size:30px">With Homes Investment Trust anyone can invest!</h3>
+<p style="color:var(--muted)">our low minimums give you the flexibility to invest the right amount, at the right time, to meet your goals.</p>
+<div class="mini-grid"><div class="mini"><b><span class="counter">20</span>%+</b><div style="font-size:13px">Returns upto</div></div><div class="mini"><b><span class="counter">1.3</span>mil+</b><div style="font-size:13px">Happy Customers</div></div></div>
+<a href="realestate.html" class="btn btn-dark">Start Exploring</a>
+</div>
+</div>
+</section>
+
+<section class="block reveal" id="portfolio">
+<div class="sec-head"><div><div class="kicker">Portfolio · Private Equities</div><h2>Investments <span class="serif"><em>worth holding.</em></span></h2></div><a href="listing.html" class="btn btn-light">Explore All →</a></div>
+<p class="sub">Hand-picked operating businesses. Filter by theme, then open the full deal room.</p>
+<div class="filters" role="tablist" aria-label="Filter investments">
+<button class="fbtn active" data-f="all">All</button>
+<button class="fbtn" data-f="tech">Tech & Software</button>
+<button class="fbtn" data-f="green">Green & Retail</button>
+<button class="fbtn" data-f="infra">IT & Comms</button>
+</div>
+<div class="grid" id="invGrid">
+<div class="card" data-cat="green"><div class="ph"><img src="images/listing/bagfactory.jpg" alt="BAGFACTORY"></div><div class="card-body"><span class="eyetag">PRIVATE EQUITY</span><h3><a href="listing.html">BAGFACTORY</a></h3><p>Bagfactory manufactures reusable non-woven and paper carrier bags for major European retail chains.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open BAGFACTORY">↗</a></div></div></div>
+<div class="card" data-cat="tech"><div class="ph"><img src="images/listing/digitalmind.jpg" alt="DIGITALMIND"></div><div class="card-body"><span class="eyetag">SOFTWARE</span><h3><a href="listing.html">DIGITALMIND</a></h3><p>Established in 2005 by CEO Rinalds Sluckis, Digital Mind provides software integration services, including Microsoft Dynamics 365, to clients in the Baltic and Central European regions.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open DIGITALMIND">↗</a></div></div></div>
+<div class="card" data-cat="tech"><div class="ph"><img src="images/listing/Scoro.jpg" alt="SCORO"></div><div class="card-body"><span class="eyetag">SAAS</span><h3><a href="listing.html">SCORO</a></h3><p>Scoro is a comprehensive business management software designed for professional service firms and other businesses.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open SCORO">↗</a></div></div></div>
+<div class="card" data-cat="infra"><div class="ph"><img src="images/listing/Santamonicanetworks.jpg" alt="Santamonicanetworks"></div><div class="card-body"><span class="eyetag">IT / SECURITY</span><h3 style="text-transform:uppercase"><a href="listing.html">Santamonicanetworks</a></h3><p>Santa Monica Networks (SMN) is the leading provider of IT integration services in Latvia and Lithuania, specializing in networking, cybersecurity, and data center solutions.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open SMN">↗</a></div></div></div>
+<div class="card" data-cat="green"><div class="ph"><img src="images/listing/Freor.jpg" alt="FREOR"></div><div class="card-body"><span class="eyetag">GREEN TECH</span><h3><a href="listing.html">FREOR</a></h3><p>Freor specializes in providing refrigeration solutions to food retailers across Europe and beyond, focusing on reducing environmental impact and energy usage.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open FREOR">↗</a></div></div></div>
+<div class="card" data-cat="infra"><div class="ph"><img src="images/listing/wildix.jpg" alt="WILDIX"></div><div class="card-body"><span class="eyetag">COMMS</span><h3><a href="listing.html">WILDIX</a></h3><p>Wildix offers CloudPBX and Unified Communications software and hardware to over 1,000,000 end users worldwide.</p><div class="card-foot"><a href="listing.html" style="font-weight:800">View deal →</a><a href="listing.html" class="go" aria-label="Open WILDIX">↗</a></div></div></div>
+</div>
+</section>
+
+<section class="block reveal" id="deal">
+<div class="deal">
+<div>
+<div class="kicker" style="color:var(--accent2)">Limited · ends Sunday</div>
+<h2 style="color:#fff;font-size:clamp(32px,3.6vw,48px)">Exclusive Monthly Deal for you.</h2>
+<p style="color:#C4CCDB">Don't miss out on this personalized monthly exclusive offer for you.</p>
+<div class="count" id="countdown2" style="display:inline-block;margin:10px 0">--:--:-- left</div><br>
+<a href="realestate.html" class="btn btn-gold">Invest →</a>
+</div>
+<div class="deal-card">
+<div class="mono" style="font-size:11px;letter-spacing:.14em;color:#8A6D2F">FEATURED VILLA · MANAGED</div>
+<h3 class="serif" style="font-size:34px;margin:6px 0">Luxury fisa orkit villa.</h3>
+<p style="color:var(--muted);margin:0">Mirpur 10, National Stadium, 1210, Dhaka, BD</p>
+<div class="price">Upto 15%+</div>
+<p style="color:var(--muted);font-size:14px">Projected yield · insured · monthly payouts · full paperwork handled</p>
+<a href="realestate.html" style="font-weight:800">Claim the deal →</a>
+</div>
+</div>
+</section>
+
+<section class="block reveal" id="estimate">
+<div class="two">
+<div class="panel">
+<div class="kicker">CB ESTIMATE · Free</div>
+<h3 style="font-size:32px;margin:8px 0">Get quick estimate <span class="serif" style="font-weight:400"><em>on your investment.</em></span></h3>
+<p style="color:var(--muted)">Master your investment valuation for a poised entry into the real estate market, armed with self-assurance and insight.</p>
+<form action="#" id="estimateForm" class="inline-form"><input type="email" placeholder="Your Email Address..." id="quickEmail" required aria-label="Your Email Address"><button type="submit">Find out →</button></form>
+<div class="est-shot"><img class="bg" src="images/media/block.jpg" alt="Estimate preview"><div class="est-pop"><div><div style="font-size:12px;font-weight:800">Your estimate is in!</div><div class="serif" style="font-size:26px">$378,30.00</div></div><img src="images/assets/screen_12.png" alt="" style="height:42px"></div></div>
+</div>
+<div class="panel dark">
+<div class="kicker" style="color:var(--accent2)">3 steps · 5 minutes</div>
+<h3 style="font-size:32px;color:#fff;margin:8px 0">You Invest. Homes Investment Trust <span class="serif" style="font-weight:400"><em>Does the Rest</em></span></h3>
+<p style="color:#9AA6BE">It’s easy to start with us with these simple steps</p>
+<div class="steps3">
+<div class="s3"><div class="step">1</div><div><b>Create Account</b><br><span style="color:#9AA6BE">It’s very easy to open an account and start your journey.</span></div></div>
+<div class="s3"><div class="step">2</div><div><b>Select a Package</b><br><span style="color:#9AA6BE">Select a package to show interest.</span></div></div>
+<div class="s3"><div class="step">3</div><div><b>Fund your account and withdraw your earnings.</b><br><span style="color:#9AA6BE">Sit back and allow Homes Investment Trust do the rest, while you watch your growth.</span></div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="block reveal" id="start">
+<div class="cta">
+<div><div class="kicker" style="color:var(--accent2)">Stay ahead</div><h2 style="color:#fff">Don't miss out on New Deals</h2><p style="color:#9AA6BE">Sign up to our newsletter</p></div>
+<div><form action="#" id="newsletterForm" class="cta-form"><input type="email" placeholder="Email address" id="email" required aria-label="Email address"><button type="submit">Get Started</button></form><div style="font-size:13px;color:#9AA6BE;margin-top:10px">Join 1.3M+ investors · unsubscribe anytime</div></div>
+</div>
+<div class="contact-hero">
+<div class="kicker" style="justify-content:center">We reply fast</div>
+<h2 style="font-size:clamp(30px,3.6vw,48px)">Any Inquiry? <span class="serif" style="font-weight:400"><em>Feel free</em></span> To contact Us.</h2>
+<div style="margin-top:18px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a href="contact.html" class="btn btn-dark btn-lg">SEND MESSAGE</a><button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#loginModal">Access Account</button></div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="foot">
+<div>
+<a href="index.html" class="brand" style="color:#fff"><span class="mark">H</span><span class="brand-txt"><small style="color:var(--accent2)">HOMES INVESTMENT TRUST</small><strong>Private Wealth</strong></span></a>
+<p style="margin:14px 0;max-width:36ch">3905 Artdale street Houston Texas, Postal Code 77063</p>
+<a href="mailto:support@hom-invest.com" style="color:var(--accent2);font-weight:800">support@hom-invest.com</a>
+</div>
+<div><h5>Links</h5><a href="index.html">Home</a><a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Access Account</a><a href="about.html">About Company</a><a href="realestate.html">Real Estate</a><a href="listing.html">Private Equities</a></div>
+<div><h5>Legal</h5><a href="terms.html">Terms & conditions</a><a href="privacy.html">Privacy policy</a><a href="faq.html">Faq’s</a><a href="contact.html">Contact Us</a></div>
+</div>
+<div class="copy"><p class="m0 text-center fs-16" style="margin:0">Copyright @2024 Homes Investment Trust inc.</p></div>
+</footer>
+
+<div class="sticky-cta"><button type="button" class="btn btn-dark js-open-signup" data-bs-toggle="modal" data-bs-target="#loginModal">Start Investing</button><button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal" style="border:1px solid var(--line)">Log in</button></div>
+
+<div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content" style="background:#000"><div class="ratio ratio-16x9"><iframe id="videoFrame" src="" title="video" allowfullscreen style="border:0"></iframe></div></div></div></div>
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position:absolute;right:14px;top:14px;z-index:5"></button>
+<div class="auth">
+<div class="auth-side"><div class="kicker" style="color:var(--accent2)">Private wealth</div><h3 class="serif" style="font-size:34px;color:var(--accent2)">Own a piece of <em>tomorrow.</em></h3><p style="color:#9AA6BE">Rental shares, private equities, monthly payouts — tracked in one dashboard.</p><ul style="line-height:2;color:#D6DCE8"><li>20%+ returns upto</li><li>Monthly income</li><li>1.3mil+ happy customers</li></ul></div>
+<div class="auth-main">
+<div class="seg mb-3" role="tablist"><button class="active" data-bs-toggle="tab" data-bs-target="#fc1" role="tab">Login</button><button data-bs-toggle="tab" data-bs-target="#fc2" role="tab">Signup</button></div>
+<div class="tab-content mt-3">
+<div class="tab-pane show active" role="tabpanel" id="fc1">
+<div class="text-center mb-3"><h2>Welcome Back!</h2></div>
+<form action="#">
+<div class="field"><label>Email*</label><p id="message" style="color:red; font-size: 13px;"></p><input type="email" placeholder="Youremail@gmail.com" id="email-signin"><span id="error-email" style="color: red; margin: 20px"></span></div>
+<div class="field"><label>Password*</label><input type="password" placeholder="Enter Password" class="pass_log_id" id="password-signin"><span id="error-pass" style="color: red; margin: 20px"></span></div>
+<div class="d-flex justify-content-between align-items-center mb-3" style="font-size:14px"><div><input type="checkbox" id="remember"> <label for="remember">Keep me logged in</label></div><a href="passwordreset.html">Forget Password?</a></div>
+<button class="btn-block" id="signin">Login</button>
+<div id="spinner" style="display:none;text-align:center;margin-top:10px">Loading…</div>
+</form>
+</div>
+<div class="tab-pane" role="tabpanel" id="fc2">
+<div class="text-center mb-3"><h2>Register</h2></div>
+<form action="#">
+<div class="field"><label>Username*</label><input type="text" placeholder="Username" id="username-signup"><span id="error-name" style="color: red; margin: 20px"></span></div>
+<div class="field"><label>Email*</label><input type="email" placeholder="Youremail@email.com" id="email-signup"><span id="error-email" style="color: red; margin: 20px"></span></div>
+<div class="field"><label>Password*</label><input type="password" placeholder="Enter Password" class="pass_log_id" id="password-signup"><span id="error-pass" style="color: red; margin: 20px"></span></div>
+<div class="mb-3" style="font-size:13px"><input type="checkbox" id="remember2"> <label for="remember2">By hitting the "Register" button, you agree to the <a href="#">Terms conditions</a> & <a href="#">Privacy Policy</a></label></div>
+<button class="btn-block" id="signup">Sign Up</button>
+</form>
+</div>
+</div>
+<div class="d-flex align-items-center mt-3 mb-2"><div style="flex:1;height:1px;background:var(--line)"></div><span class="px-3">OR</span><div style="flex:1;height:1px;background:var(--line)"></div></div>
+<div class="soc"><a href="" onclick="if(typeof signWithGoogle==='function'){signWithGoogle()}return false;"><img src="images/icon/google.png" alt="" style="width:18px"> Signup with Google</a><a href="#"><img src="images/icon/facebook.png" alt="" style="width:18px"> Signup with Facebook</a></div>
+</div>
+</div>
+</div></div>
+</div>
+
+<button class="scroll-top" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></button>
+
+<script src="vendor/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/wow/wow.min.js"></script>
+<script src="vendor/slick/slick.min.js"></script>
+<script src="vendor/fancybox/fancybox.umd.js"></script>
+<script src="vendor/jquery.lazy.min.js"></script>
+<script src="vendor/jquery.counterup.min.js"></script>
+<script src="vendor/jquery.waypoints.min.js"></script>
+<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
+<script src="vendor/validator.js"></script>
+<script src="js/theme.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>(function(){try{emailjs.init("w1O6o40XoHHWVWBWO")}catch(e){}})();</script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+<script src="js/config.js"></script>
+<script src="js/signup.js"></script>
+<script src="js/google.js"></script>
+<script src="js/login.js"></script>
+<script src="js/newsletter.js"></script>
+<script src="js/estimateForm"></script>
+<script src="js/submitemp.js"></script>
+<script>
+(function(){
+var pre=document.getElementById('preloader');
+function hidePre(){pre.classList.add('hide')}
+window.addEventListener('load',function(){setTimeout(hidePre,350)});
+setTimeout(hidePre,3200);
+var bar=document.getElementById('progress');
+addEventListener('scroll',function(){var h=document.documentElement;var p=h.scrollTop/(h.scrollHeight-h.clientHeight)*100;bar.style.width=p+'%';var b=document.querySelector('.scroll-top');if(h.scrollTop>600)b.classList.add('show');else b.classList.remove('show');var nav=document.getElementById('navFloat');if(nav){if(h.scrollTop>10)nav.classList.add('scrolled');else nav.classList.remove('scrolled')}},{passive:true});
+document.querySelector('.scroll-top').addEventListener('click',function(){scrollTo({top:0,behavior:'smooth'})});
+var hamb=document.getElementById('hamb'),mm=document.getElementById('mmenu');
+hamb.addEventListener('click',function(){mm.classList.toggle('open')});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+var cio=new IntersectionObserver(function(es){es.forEach(function(e){if(!e.isIntersecting)return;var el=e.target;cio.unobserve(el);var raw=el.textContent.trim();var t=parseFloat(raw);if(isNaN(t))return;var dec=raw.indexOf('.')>-1?1:0;var cur=0,steps=44,inc=t/steps;var timer=setInterval(function(){cur+=inc;if(cur>=t){cur=t;clearInterval(timer)}el.textContent=dec?cur.toFixed(1):Math.round(cur)},28)})},{threshold:.5});
+document.querySelectorAll('.counter').forEach(function(c){cio.observe(c)});
+// carousel
+var track=document.getElementById('carTrack');
+document.getElementById('carPrev').onclick=function(){track.scrollBy({left:-340,behavior:'smooth'})};
+document.getElementById('carNext').onclick=function(){track.scrollBy({left:340,behavior:'smooth'})};
+// filters (intuitive portfolio)
+document.querySelectorAll('.fbtn').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.fbtn').forEach(function(x){x.classList.remove('active')});b.classList.add('active');var f=b.dataset.f;document.querySelectorAll('#invGrid .card').forEach(function(c){c.style.display=(f==='all'||c.dataset.cat===f)?'':'none'})})});
+// countdown to Sunday midnight (flash sale)
+function nextSunday(){var n=new Date();var d=new Date(n);d.setDate(n.getDate()+((7-n.getDay())%7));d.setHours(23,59,59,0);if(d<n)d.setDate(d.getDate()+7);return d}
+var end=nextSunday();
+function tick(){var ms=end-new Date();if(ms<0)ms=0;var s=Math.floor(ms/1000);var h=String(Math.floor(s/3600)).padStart(2,'0'),m=String(Math.floor(s%3600/60)).padStart(2,'0'),ss=String(s%60).padStart(2,'0');var t=h+':'+m+':'+ss;var a=document.getElementById('countdown'),b=document.getElementById('countdown2');if(a)a.textContent='Ends in '+t;if(b)b.textContent=t+' left'}
+setInterval(tick,1000);tick();
+// Start Investing -> open auth modal directly on the Signup tab
+document.querySelectorAll('.js-open-signup').forEach(function(b){b.addEventListener('click',function(){setTimeout(function(){var t=document.querySelector('#loginModal [data-bs-target="#fc2"]');if(t){if(window.bootstrap&&bootstrap.Tab){bootstrap.Tab.getOrCreateInstance(t).show()}else{t.click()}}},150)})});
+// allow deep-linking: index.html#signup opens the modal on Signup
+if(window.location.hash==='#signup'){var lm=document.getElementById('loginModal');if(lm&&window.bootstrap){bootstrap.Modal.getOrCreateInstance(lm).show();setTimeout(function(){var t2=document.querySelector('#loginModal [data-bs-target="#fc2"]');if(t2){bootstrap.Tab.getOrCreateInstance(t2).show()}},250);try{history.replaceState(null,' ',window.location.pathname+window.location.search)}catch(e){}}}
+var vm=document.getElementById('videoModal');if(vm){vm.addEventListener('hidden.bs.modal',function(){document.getElementById('videoFrame').src=''})}
+})();
+</script>
+</body>
+</html>
